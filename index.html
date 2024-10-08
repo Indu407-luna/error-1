@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Journal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd; /* Light blue background */
+        }
+
+        header {
+            background: #1976d2; /* Blue header */
+            color: #f0f0f0; /* Poor contrast */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+            font-weight: bold; /* Too bold for readability */
+        }
+
+        nav ul li a {
+            color: #f0f0f0; /* Poor contrast */
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b; /* Yellow on hover, poor contrast */
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff; /* White background for sections */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1976d2; /* Header color */
+        }
+
+        .destination {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fce4ec; /* Light pink */
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #1976d2;
+            color: #f0f0f0; /* Poor contrast */
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Intentionally low contrast */
+        .footer-text {
+            color: #d0d0d0; /* Very low contrast */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Travel Journal</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Destinations</li>
+                <li>About Me</li>
+                <li>Add Entry</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Travel Journal!</h2>
+            <p> tions through my stories and photos.</p>
+            <p>Traveling is not just about visiting new locations; it's about immersing yourself in different cultures, trying new cuisines, and meeting fascinating people along the way. In my journal, you'll find detailed accounts of my travels, tips for fellow adventurers, and reflections on the lessons learned from each journey.</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Destinations</h2>
+            <div class="destination">
+                <h3>Paris, France</h3>
+                <p>Exploring the city of lights and its beautiful landmarks. Paris is a dream destination for many, offering breathtaking views, rich history, and exquisite cuisine. From the iconic Eiffel Tower to the charming streets of Montmartre, there is so much to discover. The Seine River winds through the heart of the city, and a leisurely boat ride is a must to fully appreciate the stunning architecture.</p>
+                <p>The Louvre Museum, home to thousands of works of art including the Mona Lisa, is a treasure trove for art lovers. Walking through its halls feels like stepping back in time. Don't forget to indulge in delicious pastries from local bakeries and enjoy a café sitting while watching the world go by. Paris is truly a place that captivates the heart and leaves lasting memories.</p>
+            </div>
+            <div class="destination">
+                <h3>Kedarnath, India</h3>
+                <p>A spiritual journey in the heart of the Himalayas. Kedarnath is a revered pilgrimage site, attracting thousands of devotees each year. The journey to this sacred town involves a trek through stunning landscapes, with the majestic mountains providing a breathtaking backdrop. The Kedarnath Temple, dedicated to Lord Shiva, is an architectural marvel that stands as a testament to faith and devotion.</p>
+                <p>Visitors can also explore nearby attractions like Gaurikund and Chorabari Tal, which offer serene environments for reflection and relaxation. The natural beauty surrounding Kedarnath is awe-inspiring, with snow-capped peaks and lush valleys that create a tranquil atmosphere. This journey is not just about reaching a destination but about experiencing spiritual growth and connection to nature.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm an avid traveler, passionate about exploring new cultures and places. Ever since I was young, I dreamed of traveling the world and discovering the diverse tapestry of life that exists beyond my hometown. Each trip has shaped my perspective and enriched my understanding of different ways of life.</p>
+            <p>I believe that travel is one of the best forms of education, and I strive to immerse myself fully in each destination. From participating in local festivals to learning about traditional crafts, I embrace every opportunity to connect with the people and places I visit. In this journal, I share my experiences and insights, hoping to inspire others to embark on their own adventures.</p>
+        </section>
+
+        <section id="entry-form">
+            <h2>Add Travel Entry</h2>
+            <form id="entryForm" action="#" method="post">
+                <label>Destination:</label>
+                <input type="text" required> <!-- Missing for attribute and id -->
+
+                <label>Date of Visit:</label>
+                <input type="date" required> <!-- Missing for attribute and id -->
+
+                <label>Entry:</label>
+                <textarea rows="4" required></textarea> <!-- Missing for attribute and id -->
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">&copy; 2024 My Travel Journal</p> <!-- Very low contrast -->
+    </footer>
+</body>
+</html>

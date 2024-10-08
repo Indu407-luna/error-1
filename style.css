@@ -1,0 +1,30 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; /* Light blue background */
+}
+
+header {
+    background: #1976d2; /* Blue header */
+    color: #f0f0f0; /* Poor contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold; /* Too bold for readability */
+}
+
+nav ul li a {
+    color: #f0f0f0; /* Poor contrast */
+    text-decora
